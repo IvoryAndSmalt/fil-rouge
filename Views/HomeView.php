@@ -4,7 +4,16 @@ $title="Accueil";
 
 include('header.php');
 
-echo "da home";
+?>
+
+<div class="bg-smalt test">
+        <p>da home</p>
+</div>
+
+
+
+<?php
 
 include('footer.php');
+
 ?>
