@@ -1,0 +1,22 @@
+{
+    "name": "Portfolio Lucas van den Berg",
+    "short_name": "Pf Lvdb",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "fffff0",
+    "description": "Portfolio de Lucas van den Berg",
+    "icons": [
+        {
+          "src": "assets/img/icon48.png",
+          "sizes": "48x48"
+        },
+        {
+          "src": "assets/img/icon256.png",
+          "sizes": "72x72 96x96 128x128 256x256"
+        },
+        {
+          "src": "assets/img/icon512.png",
+          "sizes": "512x512"
+        }
+      ]
+}

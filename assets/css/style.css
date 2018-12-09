@@ -61,6 +61,10 @@ table {
 	color: #fffff0;
 }
 
+a:visited{
+	color: inherit;
+}
+
 .thin{
 	font-family: "Lato", sans-serif;
 	font-weight: 300;
@@ -88,7 +92,10 @@ table {
 	display: flex;
 	padding-right: 10px;
 	padding-left: 10px;
+	margin: 0 auto;
 	justify-content: space-between;
+	height: 100%;
+	align-items: center;
 }
 
 .lgmenus{
@@ -110,6 +117,19 @@ table {
 	bottom: 0;
 }
 
+.footerli *{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	text-decoration: none;
+}
+
+.icon{
+	width: auto;
+	height: 25px;
+}
+
 @media (min-width: 576px) {
 	
 }
@@ -128,3 +148,7 @@ table {
 @media (min-width: 1200px) {
 
 }
+
+/* *{
+	background: rgba(0,0,0,0.1);
+} */
